@@ -1,0 +1,25 @@
+{{ define "main" }}
+ 
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{.Title}}</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/fontawesome_all.css">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+
+    {{ template "content" }}
+
+    <script src="/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+</body>
+
+</html> 
+
+{{ end }}
+
